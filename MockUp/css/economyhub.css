@@ -1,0 +1,23 @@
+/**********
+	Main Style
+ **********/
+
+ /*#header, 
+ .navbar-header, 
+ .collapse,
+ .dropdown,
+ .profile-header*/
+ .bg-info{
+ 	background-color: #E7292B;
+ }
+
+ .large-logo{
+ 	
+ }
+
+.dropdown:hover,
+ .dropdown-toggle:hover,
+ .profile-header:hover {
+ 	background-color: #C30919 !important;
+ 	color: #FFF;
+ }

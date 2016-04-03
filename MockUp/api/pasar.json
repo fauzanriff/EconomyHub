@@ -1,0 +1,53 @@
+{
+	"aaData":[
+		{
+			"nama":"Beras",
+			"jenis":"Pokok",
+			"termurah":"8.300",
+			"termahal":"22.900",
+			"kenaikan":"-10%"
+		},
+		{
+			"nama":"Cabe Merah",
+			"jenis":"Sayur",
+			"termurah":"41.000",
+			"termahal":"55.000",
+			"kenaikan":"+11%"
+		},
+		{
+			"nama":"Bawang Merah",
+			"jenis":"Sayur",
+			"termurah":"40.000",
+			"termahal":"45.000",
+			"kenaikan":"+4%"
+		},
+		{
+			"nama":"Bawang Putih",
+			"jenis":"Sayur",
+			"termurah":"35.000",
+			"termahal":"40.000",
+			"kenaikan":"-2%"
+		},
+		{
+			"nama":"Cabe Merah",
+			"jenis":"Sayur",
+			"termurah":"41.000",
+			"termahal":"55.000",
+			"kenaikan":"+11%"
+		},
+		{
+			"nama":"Ayam",
+			"jenis":"Pokok",
+			"termurah":"35.000",
+			"termahal":"60.000",
+			"kenaikan":"+5%"
+		},
+		{
+			"nama":"Gula Pasir",
+			"jenis":"Rempah",
+			"termurah":"9.000",
+			"termahal":"12.000",
+			"kenaikan":"-9%"
+		}
+	]
+}
