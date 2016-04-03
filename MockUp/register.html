@@ -20,50 +20,53 @@
 </head>
 <body>
 <div class="app app-header-fixed bg-dark">
- <div class="wrapper-lg modal-center animated fadeInUp text-center r-sm" style="width:350px;margin:-250px 0 0 -200px;">
-<div class="container w-xxl w-auto-xs" >
-  <div class="header-signin">
-    <div class="wrapper-lg text-center">
-        <img src="img/logo-bdg.png" alt="">
-        <p class="m-t-sm m-b-none">Easy way to create Admin & Dashboard <br />web application</p>
-    </div>
-  </div>
-  <div class="m-b-lg wrapper-lg bg-white r-b-sm">
-    <div>
-      <button class="btn m-b-sm m-r-sm btn-success btn-addon"><i class="fa fa-rocket"></i><a href="home.html">Go to site</a></button>
-    </div>
+<div class="wrapper-lg modal-center animated fadeInUp text-center r-sm" style="width:350px;margin:-250px 0 0 -200px;">
+<div class="container w-xxl w-auto-xs " >  
+  <div class="m-b-lg wrapper-lg bg-white r-sm">
     <div class=" text-left">
-      <h4 class="font-bold no-padder m-b-md">Sign in to get in touch</h4>
+      <h4 class="font-bold no-padder m-b-md">Registration</h4>
     </div>
-    
-    <form name="form" class="form-validation" href="profile.html">     
+    <form name="form" class="form-validation">     
       <div class="list-group list-group-sm">
+        
+        <div class="form-group">
+          <input type="text" placeholder="Nama" class="form-control" name="nama" required>
+        </div>
 
         <div class="form-group">
-          <input type="email" placeholder="Email" class="form-control" required>
+          <input type="text" placeholder="Nomor KTP" class="form-control" name="nomorKTP" required>
+        </div>
+
+        <div class="form-group">
+          <input type="text" placeholder="Nomor Ponsel" class="form-control" name="nomorPonsel" required>
+        </div>
+
+        <div class="form-group">
+          <input type="email" placeholder="Email" class="form-control" name="email" required>
         </div>
         
         <div class="form-group">
-          <input type="password" placeholder="Password" class="form-control" required>
+          <input type="password" placeholder="Password" class="form-control" name="password" required>
         </div>
         
       </div>
-      <a href="profile.html"><button type="submit" class="btn btn-lg btn-info btn-block">SIGN IN</button></a>
-
+      
       <div class="checkbox m-b-md text-left">
         <label class="checkbox-inline m-t-sm">
-          <input type="checkbox" checked=""><i></i> Automatic Login
+          <input type="checkbox" class="m-r-sm" checked=""><i></i> Agree the terms and policy
         </label>
       </div>
+
+      <button type="submit" class="btn btn-lg btn-info btn-block m-b-md" >SIGN IN</button>
 
       <div class="line line-dashed"></div>
 
       <div class="text-left m-t">
-        <a href="register.html" class=" b-r padder-md padder-left-none text-info">Register</a>
-        <a href="" class="padder-md">Forgot password?</a>
-      </div>      
+        <p class="m-b-none">Already have an account? <a href="index.html">Sign in here</a></p>
+      </div>
+      
+     
     </form>
-
   </div>
   
 </div>
